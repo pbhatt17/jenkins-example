@@ -59,7 +59,7 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>C:\Program Files (x86)\Jenkins\workspace</url>
+            <url>http://localhost:8080/workspace</url>
         </repository>
     </repositories>
 
