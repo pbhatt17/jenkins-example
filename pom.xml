@@ -59,7 +59,7 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>http://localhost:8080/workspace</url>
+            <url>http://localhost:8080/job/test_maven/ws/</url>
         </repository>
     </repositories>
 
