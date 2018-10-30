@@ -55,7 +55,7 @@
         </dependency>
 
     </dependencies>
-
+<!-- test comment
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
@@ -69,5 +69,19 @@
             <url>http://localhost:8082/repository/TestCICD/</url>
         </repository>
     </distributionManagement>
-
+         -->
+    <distributionManagement>
+	    <repository>
+		    <id>release</id>
+		    <name>Releases</name>
+		    <url>http://localhost:8082/repository/Releases/</url>
+	    </repository>
+	
+	    <snapshotRepository>
+		    <id>snapshots</id>
+		    <name>Snapshots</name>
+		    <url>http://localhost:8082/repository/Snapshots/</url>
+	    </snapshotRepository>
+	
+    </distributionManagement>
 </project>
