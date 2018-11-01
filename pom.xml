@@ -72,13 +72,13 @@
          -->
     <distributionManagement>
 	    <repository>
-		    <id>release</id>
+		    <id>Nexus3</id>
 		    <name>Releases</name>
 		    <url>http://localhost:8082/repository/Releases/</url>
 	    </repository>
 	
 	    <snapshotRepository>
-		    <id>snapshots</id>
+		    <id>Nexus3</id>
 		    <name>Snapshots</name>
 		    <url>http://localhost:8082/repository/Snapshots/</url>
 	    </snapshotRepository>
