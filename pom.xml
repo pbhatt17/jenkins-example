@@ -8,14 +8,7 @@
     <artifactId>jenkins-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <servers>
-    	<server>
-    	  <id>Nexus3</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-	
-  </servers>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -78,6 +71,14 @@
     </distributionManagement>
          -->
     <distributionManagement>
+	        <servers>
+    	<server>
+    	  <id>Nexus3</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+	
+  </servers>
 	    <repository>
 		    <id>Nexus3</id>
 		    <name>Releases</name>
