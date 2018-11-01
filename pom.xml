@@ -71,14 +71,7 @@
     </distributionManagement>
          -->
     <distributionManagement>
-	        <servers>
-    	<server>
-    	  <id>Nexus3</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-	
-  </servers>
+
 	    <repository>
 		    <id>Nexus3</id>
 		    <name>Releases</name>
