@@ -77,7 +77,7 @@
 		    <name>Releases</name>
 		    <url>http://localhost:8082/repository/Releases/</url>
 	    </repository>
-<!--- Test--	
+<!-- Test	
 	    <snapshotRepository>
 		    <id>Nexus3</id>
 		    <name>Snapshots</name>
