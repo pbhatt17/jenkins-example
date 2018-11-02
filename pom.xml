@@ -71,18 +71,18 @@
     </distributionManagement>
          -->
     <distributionManagement>
-
+<!-- Test
 	    <repository>
 		    <id>Nexus</id>
 		    <name>Releases</name>
 		    <url>http://54.81.86.222:8081/repository/Releases/</url>
 	    </repository>
-<!-- Test	
+-->	
 	    <snapshotRepository>
-		    <id>Nexus3</id>
+		    <id>Nexus</id>
 		    <name>Snapshots</name>
 		    <url>http://54.81.86.222:8081/repository/Snapshot/</url>
 	    </snapshotRepository>
-	-->
+	
     </distributionManagement>
 </project>
