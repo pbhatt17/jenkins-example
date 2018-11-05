@@ -77,11 +77,12 @@
 		    <name>Releases</name>
 		    <url>http://54.81.86.222:8081/repository/Releases/</url>
 	    </repository>
+
 -->	
 	    <snapshotRepository>
 		    <id>Nexus</id>
 		    <name>Snapshot</name>
-		    <url>http://54.81.86.222:8081/repository/Snapshot/</url>
+		    <url>http://localhost:8081/repository/Snapshot/</url>
 	    </snapshotRepository>
 	
     </distributionManagement>
