@@ -80,7 +80,7 @@
 -->	
 	    <snapshotRepository>
 		    <id>Nexus</id>
-		    <name>Snapshots</name>
+		    <name>Snapshot</name>
 		    <url>http://54.81.86.222:8081/repository/Snapshot/</url>
 	    </snapshotRepository>
 	
